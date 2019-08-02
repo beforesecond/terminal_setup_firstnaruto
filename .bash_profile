@@ -1,0 +1,16 @@
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+sparkles="["✨"] "
+fire="["🔥"] "
+bug="["🐛"] "
+lipstick="["💄"] "
+recycle="["♻️"] "
+loud_sound="["🔊"] "
+tada="["🎉"] "
+rocket="["🚀"] "
+white_check_mark="["✅"] "
+pencil="["📝"] "
+whale="["🐳"] "
+bulb="["💡"] "
+alias gcm='git commit -m $1'
