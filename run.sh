@@ -6,4 +6,5 @@ echo '### Copy File ###'
 cp .bash_profile ~/.bash_profile
 cp .zpreztorc ~/.zpreztorc
 cp .zshrc ~/.zshrc
+cp init.zsh ~/.zprezto/init.zsh
 echo '### Finish ###'
